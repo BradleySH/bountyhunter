@@ -7,7 +7,7 @@ const mongoose = require("mongoose")
 
 app.use(express.json())
 //  Coonect to DB
-mongoose.connect("mongodb://localhost:27017/bountyhunterdb", 
+mongoose.connect("mongodb+srv://BradleySH:SYdneyta09!!@cluster0.fg7zq.mongodb.net/test", 
     {
         useNewUrlParser: true, 
         useUnifiedTopology:true,
